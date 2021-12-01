@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.head{
+color: #48008b;
+    display: flex;
+    justify-content: space-around;
+    background-color: #cc3480;
+}
+
+.head a{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+body{
+    background: linear-gradient(#0000ff,#9707eb);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: #f0f8ff;
+}
+a:visited{
+    color: #f0f8ff;
+}
+.menu:hover{
+    transform: scale(1.2);
+}
